@@ -7,7 +7,7 @@
 		}
 		public function testThat()
 		{
-			$this->assertEquals(1,1);
+			$this->assertEquals(0,1);
 		}
 	}
 ?>
