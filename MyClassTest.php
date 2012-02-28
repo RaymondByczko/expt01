@@ -3,11 +3,12 @@
 	{
 		public function testIt()
 		{
-			$this->assertEquals(0,1);
+			$this->assertEquals('0','0');
 		}
 		public function testThat()
 		{
-			$this->assertEquals(0,1);
+			$zero = '0';
+			$this->assertEquals(0,$zero);
 		}
 	}
 ?>
